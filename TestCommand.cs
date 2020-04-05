@@ -128,7 +128,7 @@ namespace RevitIronPythonTest
             //builtin.SetVariable("__revit__", _revit);
 
             // add the search paths
-            //AddEmbeddedLib(engine);
+            AddEmbeddedLib(engine);
 
             // reference RevitAPI and RevitAPIUI
             engine.Runtime.LoadAssembly(typeof(Autodesk.Revit.DB.Document).Assembly);
@@ -136,6 +136,18 @@ namespace RevitIronPythonTest
 
             // also, allow access to the RPL internals
             //engine.Runtime.LoadAssembly(typeof(PyRevitLoader.ScriptExecutor).Assembly);
+        }
+        public void AddEmbeddedLib(ScriptEngine engine)
+        {
+            // use embedded python lib
+            var asm = this.GetType().Assembly;
+            var resQuery = from name in asm.GetManifestResourceNames()
+                           where name.ToLowerInvariant().EndsWith("python_279_lib.zip")
+                           select name;
+            var resName = resQuery.Single();
+            var importer = new IronPython.Modules.ResourceMetaPathImporter(asm, resName);
+            dynamic sys = IronPython.Hosting.Python.GetSysModule(engine);
+            sys.meta_path.append(importer);
         }
     }
     public class ErrorReporter : ErrorListener

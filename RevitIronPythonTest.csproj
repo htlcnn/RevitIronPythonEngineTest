@@ -64,11 +64,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -84,6 +84,9 @@
   <ItemGroup>
     <Compile Include="TestCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\python_279_lib.zip" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

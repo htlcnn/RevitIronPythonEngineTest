@@ -3,3 +3,8 @@ C:\Users\HTL\Source\Repos\RevitIronPythonTest\bin\Debug\RevitIronPythonTest.pdb
 C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.dll
 C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.pdb
 C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.csprojAssemblyReference.cache
+D:\UDIC\2. BIM\4. R&D\3. Python\2. Projects\pyrevit\RevitIronPythonEngineTest\bin\Debug\RevitIronPythonTest.dll
+D:\UDIC\2. BIM\4. R&D\3. Python\2. Projects\pyrevit\RevitIronPythonEngineTest\bin\Debug\RevitIronPythonTest.pdb
+D:\UDIC\2. BIM\4. R&D\3. Python\2. Projects\pyrevit\RevitIronPythonEngineTest\obj\Debug\RevitIronPythonTest.csprojAssemblyReference.cache
+D:\UDIC\2. BIM\4. R&D\3. Python\2. Projects\pyrevit\RevitIronPythonEngineTest\obj\Debug\RevitIronPythonTest.dll
+D:\UDIC\2. BIM\4. R&D\3. Python\2. Projects\pyrevit\RevitIronPythonEngineTest\obj\Debug\RevitIronPythonTest.pdb
