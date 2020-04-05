@@ -1,0 +1,5 @@
+C:\Users\HTL\Source\Repos\RevitIronPythonTest\bin\Debug\RevitIronPythonTest.dll
+C:\Users\HTL\Source\Repos\RevitIronPythonTest\bin\Debug\RevitIronPythonTest.pdb
+C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.dll
+C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.pdb
+C:\Users\HTL\Source\Repos\RevitIronPythonTest\obj\Debug\RevitIronPythonTest.csprojAssemblyReference.cache
